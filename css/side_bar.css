@@ -1,0 +1,68 @@
+/*Sidebar*/
+.sidebar-section {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    top: 70px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile-top {
+    display: none;
+}
+
+
+.menu-section {
+
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.menu-section a {
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.menu-section a:hover {
+    color: black;
+    transition: 0.1s;
+    background-color: #e6e2e2;
+    border-radius: 10px;
+    
+}
+.active{
+    background-color: #e6e2e2;
+    border-radius: 10px;
+}
+
+.menu-section .icon {
+    margin-right: 1rem;
+    font-size: 20px;
+    
+}
+
+.menu-section .profile_image {
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    padding-top: 10px;
+}
