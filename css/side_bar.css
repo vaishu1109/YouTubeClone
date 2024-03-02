@@ -95,7 +95,7 @@
     overflow:visible;
     padding-left: 30px;
 }
-@media screen and (min-width:700px) and (max-width:1300px) {
+@media screen and (max-width:1300px) {
     .sidebar-section {
         padding-left: 10px;
         padding-right: 10px;
@@ -108,6 +108,9 @@
         width: calc(100% - 80px);
         left: 80px;
         
+    }
+    .youtube-logo{
+        display: none;
     }
     .logo .logo-png {
         display: none;
