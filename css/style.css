@@ -1,6 +1,6 @@
 .profile-logo{
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 .youtube-logo{
@@ -22,4 +22,12 @@
 .background-white:hover{
     background-color: #d4d4d4;
     transition: 0.2s;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
 }
